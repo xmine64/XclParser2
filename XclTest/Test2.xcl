@@ -1,0 +1,20 @@
+import "Test.xcl"
+
+int aloneField = 52
+
+global {
+	Text = "Hello",
+	Count = 5,
+}
+
+MyTestConfig section2 {
+	MyField = Option1,
+	Count   = 4,
+	MyFlag  = false,
+}
+
+exclude {
+	"Excluded",
+	"Some other excluded",
+	"List of excludeds",
+}

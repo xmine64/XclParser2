@@ -1,0 +1,59 @@
+* Importing files:
+
+import <String> <New Line>
+
+===========================
+
+* Defining Section type:
+
+section <Section Name> { <Fields> }
+
+===========================
+
+* Defining field for sections:
+
+<Type> <Name> [default <Value> | required],
+
+===========================
+
+* Defining Enumerable type:
+
+enum <Type Name> { <Values> }
+
+===========================
+
+* Defining Enumerable value:
+
+<Value Name>,
+
+===========================
+
+* Defining List type:
+
+list <Type Name> { <Contained Type Name> }
+
+===========================
+
+* Defining required sections/lists:
+
+required <Type Name> <Section/List Name> <New Line>
+
+===========================
+
+* Creating section:
+
+<Section Type> <Section Name> { <Field Assignments> }
+
+===========================
+
+* Field assignment:
+
+<Field Name> = <Field Value>,
+
+===========================
+
+* Creating lists:
+
+<List Type> <List Name> { <List Values>, }
+
+===========================

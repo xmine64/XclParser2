@@ -1,0 +1,17 @@
+.idea/
+.vs/
+*.idb
+*.lib
+*.pdb
+*.exe
+*.obj
+_IsIncrementalBuild
+*.tlog
+*.lastbuildstate
+*.obj.enc
+*.lib.recipe
+*.exe.recipe
+*.log
+*.pch
+*.res
+*.ilk
